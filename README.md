@@ -24,4 +24,12 @@ For doing this project, we implement 4 different networks (recurrent neural netw
 
 ***Please note that for first 3 cases, we didn't scale our data. However, for Case 4 since we used PCA as an extra preprocessing step, data needs to be rescaled***
 
-## Results:
+
+### Getting Started:
+
+
+### Results:
+
+***In README***, we just show test accuracy for all methods in different cases. For other metrics such as ***confusion matrix, precision, recall, F1 score, etc***  of all proposed models, please open the notebook of each. ***Obviously in for Case 4 which PCA is used as preprocessing step, training-time is too much faster than other Cases***. Moreover, we can definitely get better results with ANN by scaling in first 3 Cases. 
+
+![result_BCI](https://user-images.githubusercontent.com/107177894/172810498-0e0efdda-426c-4893-82a5-d8499b96399a.png)
