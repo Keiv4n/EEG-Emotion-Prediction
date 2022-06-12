@@ -47,9 +47,7 @@ second half-windows, for all signals (8 features).
 features).
 
 • The maximum (minimum) values of each quarter window, plus all paired
-differences of maximum (minimum) values between the quarter windows,
-
-for all signals (112 features).
+differences of maximum (minimum) values between the quarter windows, for all signals (112 features).
 
 
 
