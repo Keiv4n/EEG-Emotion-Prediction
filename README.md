@@ -1,4 +1,4 @@
-# EEG-Emotion-Recognition
+# EEG-Emotion-Prediction
 Brain-Computer Interface course project (Electroencephalography-Based Human Emotion Prediction Using Deep Learning).
 
 ### Project Aims & Objectives:
