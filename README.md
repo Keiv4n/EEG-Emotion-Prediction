@@ -19,7 +19,7 @@ The goal of this project is to provide electroencephalography (EEG) approaches f
 For this project, [EEG Brainwave Dataset: Feeling Emotions](https://www.kaggle.com/datasets/birdy654/eeg-brainwave-dataset-feeling-emotions) (which is publicly available) is used. Four dry extra-cranial electrodes via a commercially available MUSE EEG headband are employed to capture the EEG signal. Microvoltage measurements are recorded from the TP9, AF7, AF8, and TP10 electrodes which account for the Frontal and Temporal lobes of the brain. 60 seconds of data were recorded from two subjects (1 male, and 1 female, aged 20-22). For each of the 6 film clips producing 12 minutes (720 seconds) of brain activity data (6 minutes for each emotional state). 3 film clips produced negative emotions and 3 of them contained positive scenes. Among each state, subjects took a rest for one minute and their EEG signals are captured and labeled as neutral emotions. In addition, participants were forced to watch the emotional videos without making any conscious movements such as drinking coffee in order to prevent the influence of Electromyographic (EMG) signals on the data due to their prominence over brainwaves in terms of signal strength [1], [2].
 
 <p align="center">
-  <img width="486" height="470" src="https://user-images.githubusercontent.com/107177894/173533521-edb18a15-cde4-4e9d-844a-7a8cf27c2688.png">
+  <img width="350" height="337" src="https://user-images.githubusercontent.com/107177894/173533521-edb18a15-cde4-4e9d-844a-7a8cf27c2688.png">
 </p>
 
 
