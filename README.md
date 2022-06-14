@@ -1,14 +1,29 @@
 # EEG-Emotion-Prediction
 Brain-Computer Interface course project (Electroencephalography-Based Human Emotion Prediction Using Deep Learning).
 
+
+<p align="center">
+  <img width="600" height="179" src="https://user-images.githubusercontent.com/107177894/173532032-a972cb69-ed93-4452-bdf9-c37462af5fb7.png">
+</p>
+
+
+
 ### Project Aims & Objectives:
 The goal of this project is to provide electroencephalography (EEG) approaches for emotion recognition. EEG signals are collected from the brain’s scalp and analyzed in response to a variety of stimuli representing the three main emotions. Human emotions are varied and complex but can be generalized into positive, neutral, and negative categories.
 
-
+<p align="center">
+  <img width="500" height="292" src="https://user-images.githubusercontent.com/107177894/173532930-92e15549-2956-4b37-a463-20cf4a08fa0e.png">
+</p>
 
 ### Dataset:
 For this project, [EEG Brainwave Dataset: Feeling Emotions](https://www.kaggle.com/datasets/birdy654/eeg-brainwave-dataset-feeling-emotions) (which is publicly available) is used. Four dry extra-cranial electrodes via a commercially available MUSE EEG headband are employed to capture the EEG signal. Microvoltage measurements are recorded from the TP9, AF7, AF8, and TP10 electrodes which account for the Frontal and Temporal lobes of the brain. 60 seconds of data were recorded from two subjects (1 male, and 1 female, aged 20-22). For each of the 6 film clips producing 12 minutes (720 seconds) of brain activity data (6 minutes for each emotional state). 3 film clips produced negative emotions and 3 of them contained positive scenes. Among each state, subjects took a rest for one minute and their EEG signals are captured and labeled as neutral emotions. In addition, participants were forced to watch the emotional videos without making any conscious movements such as drinking coffee in order to prevent the influence of Electromyographic (EMG) signals on the data due to their prominence over brainwaves in terms of signal strength [1], [2].
 
+<p align="center">
+  <img width="486" height="470" src="https://user-images.githubusercontent.com/107177894/173533521-edb18a15-cde4-4e9d-844a-7a8cf27c2688.png">
+</p>
+
+
+### Preprocessing:
 To sum up, This dataset contains 3 class labels for emotion (neutral, happy, and sad) and it is preprocessed some features were extracted as follows [3]:
 
 ### – Considering the full-time window:
